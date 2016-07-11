@@ -1,0 +1,20 @@
+INPUT FILE FOR PROJECT "KERNEL EVOLUTION"
+
+FERTILITY PER INDIVIDUAL AND TIME-STEP (fertility,lambda)
+4
+DENSITY INDEPENDENT BASELINE MORTALITY (mort_0, mu0) does not apply if density is regulated localy
+0.1
+HALF SATURATION CONSTANT OF AGE RELATED COMPETITION (hsc_age / H_a)
+3
+STANDARD DEVIATION OF DISTANCE COMPETITION KERNEL (sigma)
+1
+KURTOSIS OF DISTANCE COMPETITION KERNEL (kurtosis, gamma)
+2
+PER STEP DISPERSAL COSTS (mort_disp0 / mu_d0)
+0.
+MUTATION RATE FOR KERNEL
+0.001
+DISPERSAL COSTS one of "maternal" or "offspring" (dispCostCheckBox)
+maternal
+DISPERSAL CONTROL one of "maternal" or "offspring" (dispControlCheckBox)
+maternal
